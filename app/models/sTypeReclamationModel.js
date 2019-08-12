@@ -67,3 +67,5 @@ TypeReclamation.delete = function(typereclamationId, result) { ///validate
         }
     });
 };
+
+module.exports = TypeReclamation;

@@ -67,3 +67,5 @@ MotifIncident.delete = function(motifincidentId, result) { ///validate
         }
     });
 };
+
+module.exports = MotifIncident;

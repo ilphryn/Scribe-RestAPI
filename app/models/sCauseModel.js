@@ -67,3 +67,5 @@ Cause.delete = function(causeId, result) { ///validate
         }
     });
 };
+
+module.exports = Cause;

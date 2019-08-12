@@ -67,3 +67,5 @@ Signalisation.delete = function(signalisationId, result) { ///validate
         }
     });
 };
+
+module.exports = Signalisation;

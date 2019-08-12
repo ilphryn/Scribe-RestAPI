@@ -94,3 +94,5 @@ Signalisations.delete = function(signalisationsId, result) { ///validate
         }
     });
 };
+
+module.exports = Signalisations;

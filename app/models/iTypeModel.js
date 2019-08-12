@@ -67,3 +67,5 @@ TypeIncident.delete = function(typeincidentId, result) { ///validate
         }
     });
 };
+
+module.exports = TypeIncident;

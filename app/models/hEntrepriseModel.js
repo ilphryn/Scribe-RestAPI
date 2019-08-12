@@ -67,3 +67,5 @@ Entreprise.delete = function(entrepriseId, result) { ///validate
         }
     });
 };
+
+module.exports = Entreprise;

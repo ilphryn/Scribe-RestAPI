@@ -78,3 +78,5 @@ Remontee.delete = function(remonteeId, result) { ///validate
 //         }
 //     });
 // };
+
+module.exports = Remontee;

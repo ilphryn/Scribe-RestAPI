@@ -67,3 +67,5 @@ Destinataire.delete = function(destinataireId, result) { ///validate
         }
     });
 };
+
+module.exports = Destinataire;

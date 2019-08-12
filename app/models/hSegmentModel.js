@@ -67,3 +67,5 @@ Segment.delete = function(segmentId, result) { ///validate
         }
     });
 };
+
+module.exports = Segment;

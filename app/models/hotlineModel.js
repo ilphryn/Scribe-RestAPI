@@ -83,3 +83,5 @@ Hotline.delete = function(hotlineId, result) { ///validate
         }
     });
 };
+
+module.exports = Hotline;

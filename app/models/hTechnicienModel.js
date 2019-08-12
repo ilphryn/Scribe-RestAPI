@@ -73,3 +73,5 @@ Technicien.delete = function(technicienId, result) { ///validate
         }
     });
 };
+
+module.exports = Technicien;

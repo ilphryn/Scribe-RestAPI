@@ -67,3 +67,5 @@ Zone.delete = function(zoneId, result) { ///validate
         }
     });
 };
+
+module.exports = Zone;

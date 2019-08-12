@@ -67,3 +67,5 @@ ActeurIncident.delete = function(acteurincidentId, result) { ///validate
         }
     });
 };
+
+module.exports = ActeurIncident;

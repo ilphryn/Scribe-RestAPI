@@ -67,3 +67,5 @@ Action.delete = function(actionId, result) { ///validate
         }
     });
 };
+
+module.exports = Action;

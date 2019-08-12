@@ -67,3 +67,5 @@ Origine.delete = function(origineId, result) { ///validate
         }
     });
 };
+
+module.exports = Origine;

@@ -67,3 +67,6 @@ ZoneIncident.delete = function(zoneincidentId, result) { ///validate
         }
     });
 };
+
+
+module.exports = ZoneIncident;

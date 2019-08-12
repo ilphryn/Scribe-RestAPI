@@ -88,3 +88,5 @@ Incident.delete = function(incidentId, result) { ///validate
         }
     });
 };
+
+module.exports = Incident;
