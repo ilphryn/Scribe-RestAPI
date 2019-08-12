@@ -45,6 +45,6 @@ exports.delete = function(req, res) {
     Acteur.delete(req.params.acteurId, function(err, acteur) {
         if (err)
             res.send(err);
-        res.json({ message: 'Acteur successfully deleted' });
+        res.json({ message: "Acteur successfully deleted" });
     });
 };

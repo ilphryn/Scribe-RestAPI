@@ -45,6 +45,6 @@ exports.delete = function(req, res) {
     Mention.delete(req.params.mentionId, function(err, mention) {
         if (err)
             res.send(err);
-        res.json({ message: 'Mention successfully deleted' });
+        res.json({ message: "Mention successfully deleted" });
     });
 };

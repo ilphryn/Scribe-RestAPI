@@ -1,6 +1,6 @@
 'use strict';
 
-let Action = require('../models/sActionModel.js/index.js.js.js');
+let Action = require('../models/hActionModel');
 
 exports.getAll = function(req, res) {
     Action.getAll(function(err, action) {
@@ -45,6 +45,6 @@ exports.delete = function(req, res) {
     Action.delete(req.params.actionId, function(err, action) {
         if (err)
             res.send(err);
-        res.json({ message: 'Action successfully deleted' });
+        res.json({ message: "Action successfully deleted" });
     });
 };
